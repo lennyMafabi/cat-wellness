@@ -1,0 +1,49 @@
+[
+  {
+    "mirrorId": "e8f0773d-a6e9-4d08-bc78-1c1208840cdd",
+    "clientId": "d7ee6fbc-2881-4584-92ab-98d5db47004f",
+    "createdAt": "2026-04-16T17:27:31.613Z",
+    "role": "survivor",
+    "status": "active",
+    "lastActivityAt": "2026-04-17T13:50:29.125Z",
+    "sessionCount": 4,
+    "currentRiskLevel": "low"
+  },
+  {
+    "mirrorId": "715e3c00-10b0-42ab-89f4-f9a0487f11f0",
+    "clientId": "9af6080e-173f-47e6-974d-c5454eb116ee",
+    "createdAt": "2026-04-17T06:18:12.009Z",
+    "role": "online_harms",
+    "status": "active",
+    "lastActivityAt": "2026-04-17T06:18:12.056Z",
+    "sessionCount": 2
+  },
+  {
+    "mirrorId": "2fbe6b57-ded0-4e81-a995-2cdcd2b5febc",
+    "clientId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "createdAt": "2026-04-20T09:51:35.734Z",
+    "role": "survivor",
+    "status": "active",
+    "lastActivityAt": "2026-04-20T09:54:08.343Z",
+    "sessionCount": 20
+  },
+  {
+    "mirrorId": "601510ed-8953-4aba-99de-ffc5d3d24525",
+    "clientId": "2bd6b2d2-4304-4e6e-9550-186f73075b95",
+    "createdAt": "2026-04-20T09:55:23.821Z",
+    "role": "survivor",
+    "status": "active",
+    "lastActivityAt": "2026-04-20T09:55:23.835Z",
+    "sessionCount": 2
+  },
+  {
+    "mirrorId": "1c3fddf7-628d-4475-8db5-ea07209a0090",
+    "clientId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "createdAt": "2026-04-20T10:05:39.193Z",
+    "role": "survivor",
+    "status": "active",
+    "lastActivityAt": "2026-04-21T14:09:52.118Z",
+    "sessionCount": 26,
+    "currentRiskLevel": "low"
+  }
+]

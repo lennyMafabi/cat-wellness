@@ -1,0 +1,468 @@
+[
+  {
+    "caseId": "dbf8d0b9-20be-4670-9775-1b725cf2e287",
+    "clientId": "80574e1c-d483-4cc7-b77e-46449d33498d",
+    "riskLevel": "medium",
+    "tfgbvType": "sextortion",
+    "description": "sextortion over nudes",
+    "platforms": [],
+    "status": "open",
+    "consentGiven": true,
+    "createdAt": "2026-04-16T09:26:30.372Z",
+    "updatedAt": "2026-04-16T09:26:30.372Z"
+  },
+  {
+    "caseId": "25c15b93-2956-4b95-a7eb-d619754b481d",
+    "clientId": "967e66d7-9ab9-4ca2-82ff-95daf404fbfe",
+    "riskLevel": "medium",
+    "tfgbvType": "sextortion",
+    "description": "ASKING FOR MONEY FOR MY NUDES",
+    "platforms": [],
+    "status": "open",
+    "consentGiven": true,
+    "createdAt": "2026-04-16T09:30:01.566Z",
+    "updatedAt": "2026-04-16T09:30:01.579Z"
+  },
+  {
+    "caseId": "b52b1cd7-fba4-43b3-ba48-297600e23ef7",
+    "clientId": "bb9470b6-7330-4e14-aba5-4923b77f811a",
+    "riskLevel": "medium",
+    "tfgbvType": "sextortion",
+    "description": "been extorted because somebody has my nudes",
+    "platforms": [
+      "WhatsApp"
+    ],
+    "status": "open",
+    "consentGiven": true,
+    "createdAt": "2026-04-16T10:21:43.383Z",
+    "updatedAt": "2026-04-16T10:21:43.383Z",
+    "assessmentAnswers": {
+      "tfgbv_1": 2,
+      "tfgbv_2": 0,
+      "tfgbv_3": 1,
+      "tfgbv_4": 0,
+      "tfgbv_5": 0,
+      "tfgbv_6": 1,
+      "tfgbv_7": 4,
+      "tfgbv_8": 4,
+      "tfgbv_9": 4,
+      "tfgbv_10": 4,
+      "tfgbv_11": 4,
+      "tfgbv_12": 4,
+      "tfgbv_13": 4,
+      "tfgbv_14": 4,
+      "tfgbv_15": 4,
+      "tfgbv_16": 4,
+      "tfgbv_17": 4,
+      "tfgbv_18": 4,
+      "tfgbv_19": 4
+    },
+    "assessmentResult": {
+      "clusterLevels": {
+        "impact": "low",
+        "severity": "critical",
+        "coping": "critical",
+        "support": "critical"
+      },
+      "rawScores": {
+        "impact": 15,
+        "severity": 85,
+        "coping": 100,
+        "support": 100
+      },
+      "overallRisk": "moderate",
+      "topCluster": "coping",
+      "summary": "Your responses indicate some negative impact from online experiences. While you have some coping strategies, additional support could help strengthen your resilience.",
+      "summarySw": "Majibu yako yanashiria madhara fulani kutokana na uzoefu wa mtandaoni. Ingawa una mikakati fulani ya kukabiliana, usaidizi zaidi ungewezesha kuimarisha uvumilivu wako.",
+      "summaryKal": "Responseetab bo ak itab tishetab cheiso ak online. Ketab kabuutin cheibo, ketusie kogoren koimut resilience",
+      "recommendations": [
+        "Consider speaking with a counselor or therapist",
+        "Review and strengthen your privacy settings on all platforms",
+        "Document any ongoing harassment for future reporting",
+        "Connect with support groups for survivors of online harassment"
+      ],
+      "recommendationsSw": [
+        "Fikiria kuzungumza na mshauri au mtaalamu",
+        "Kagua na kuimarisha mipangilio yako ya faragha kwenye majukwaa yote",
+        "Hifadhi uharifu unaendelea kwa ajili ya kuripoti baadaye",
+        "Unganishwa na vikundi vya usaidizi wa wanaopona wa uharifu mtandaoni"
+      ],
+      "recommendationsKal": [
+        "Kaal counselor ak therapist",
+        "Review ak imut privacy settings platforms tugul",
+        "Document uharifu ab kach kach",
+        "Connect ak piik che uharifu online"
+      ]
+    }
+  },
+  {
+    "caseId": "fab27121-8ba7-4c1a-8362-e5a92b7a2dcc",
+    "clientId": "458e5e34-4dbd-4e10-966e-997cd7b2ccee",
+    "riskLevel": "high",
+    "tfgbvType": "sextortion",
+    "description": "sextortion",
+    "platforms": [],
+    "status": "open",
+    "consentGiven": true,
+    "createdAt": "2026-04-16T10:53:13.918Z",
+    "updatedAt": "2026-04-16T10:53:13.936Z",
+    "assessmentAnswers": {
+      "tfgbv_1": 4,
+      "tfgbv_2": 4,
+      "tfgbv_3": 3,
+      "tfgbv_4": 4,
+      "tfgbv_5": 3,
+      "tfgbv_6": 2,
+      "tfgbv_7": 3,
+      "tfgbv_8": 3,
+      "tfgbv_9": 4,
+      "tfgbv_10": 3,
+      "tfgbv_11": 2,
+      "tfgbv_12": 3,
+      "tfgbv_13": 4,
+      "tfgbv_14": 3,
+      "tfgbv_15": 2,
+      "tfgbv_16": 3,
+      "tfgbv_17": 4,
+      "tfgbv_18": 4,
+      "tfgbv_19": 4
+    },
+    "assessmentResult": {
+      "clusterLevels": {
+        "impact": "critical",
+        "severity": "critical",
+        "coping": "high",
+        "support": "critical"
+      },
+      "rawScores": {
+        "impact": 90,
+        "severity": 75,
+        "coping": 70,
+        "support": 90
+      },
+      "overallRisk": "high",
+      "topCluster": "impact",
+      "summary": "Your responses suggest significant negative impact from online harassment. You are experiencing notable emotional distress and may benefit from immediate support and intervention.",
+      "summarySw": "Majibu yako yanapendekeza athari kubwa za kihasibu kutokana na uharifu mtandaoni. Unakumbwa msongo mkubwa wa kihisia na unaweza kufaiki na usaidizi wa haraka na uingiliaji kati.",
+      "summaryKal": "Responseetab bo ak itab tishetab cheptisiet nebo uharifu online. Nandoa kiyabet ak kainet ketusie kibagenge",
+      "recommendations": [
+        "Seek immediate support from a mental health professional",
+        "Report the harassment to law enforcement",
+        "Consider temporarily deactivating affected social media accounts",
+        "Create a safety plan with a trusted person",
+        "Document all evidence (screenshots, messages, dates)"
+      ],
+      "recommendationsSw": [
+        "Tafuta usaidizi wa haraka kutoka kwa mtaalamu wa afya ya akili",
+        "Ripoti uharifu kwa maafisa wa usalama",
+        "Fikiria kuzima kwa muda akaunti za mitandao ya kijamii zilizoathirika",
+        "Tenga mpango wa usalama na mtu wa kuaminiwa",
+        "Hifadhi ushahidi wote (screenshots, ujumbe, tarehe)"
+      ],
+      "recommendationsKal": [
+        "Ketusie mental health professional kibagenge",
+        "Report uharifu law enforcement",
+        "Deactivate accounts che uharifu kogoren",
+        "Plan usalama ak piik nebo aanai",
+        "Document ushahidi tugul (screenshots, messages, dates)"
+      ]
+    }
+  },
+  {
+    "caseId": "f3e415de-5d4f-4856-9ffb-cee34ea9d35e",
+    "clientId": "f83827ab-f6fc-46f8-b8e3-8502b4019552",
+    "riskLevel": "high",
+    "tfgbvType": "sextortion",
+    "description": "sextortion",
+    "platforms": [],
+    "status": "open",
+    "consentGiven": true,
+    "createdAt": "2026-04-16T12:00:12.324Z",
+    "updatedAt": "2026-04-16T12:00:12.343Z",
+    "assessmentAnswers": {
+      "tfgbv_1": 0,
+      "tfgbv_2": 4,
+      "tfgbv_3": 4,
+      "tfgbv_4": 4,
+      "tfgbv_5": 4,
+      "tfgbv_6": 4,
+      "tfgbv_7": 4,
+      "tfgbv_8": 3,
+      "tfgbv_9": 3,
+      "tfgbv_10": 3,
+      "tfgbv_11": 3,
+      "tfgbv_12": 2,
+      "tfgbv_13": 2,
+      "tfgbv_14": 3,
+      "tfgbv_15": 2,
+      "tfgbv_16": 3,
+      "tfgbv_17": 4,
+      "tfgbv_18": 3,
+      "tfgbv_19": 2
+    },
+    "assessmentResult": {
+      "clusterLevels": {
+        "impact": "critical",
+        "severity": "critical",
+        "coping": "high",
+        "support": "critical"
+      },
+      "rawScores": {
+        "impact": 80,
+        "severity": 85,
+        "coping": 60,
+        "support": 75
+      },
+      "overallRisk": "high",
+      "topCluster": "severity",
+      "summary": "Your responses suggest significant negative impact from online harassment. You are experiencing notable emotional distress and may benefit from immediate support and intervention.",
+      "summarySw": "Majibu yako yanapendekeza athari kubwa za kihasibu kutokana na uharifu mtandaoni. Unakumbwa msongo mkubwa wa kihisia na unaweza kufaiki na usaidizi wa haraka na uingiliaji kati.",
+      "summaryKal": "Responseetab bo ak itab tishetab cheptisiet nebo uharifu online. Nandoa kiyabet ak kainet ketusie kibagenge",
+      "recommendations": [
+        "Seek immediate support from a mental health professional",
+        "Report the harassment to law enforcement",
+        "Consider temporarily deactivating affected social media accounts",
+        "Create a safety plan with a trusted person",
+        "Document all evidence (screenshots, messages, dates)"
+      ],
+      "recommendationsSw": [
+        "Tafuta usaidizi wa haraka kutoka kwa mtaalamu wa afya ya akili",
+        "Ripoti uharifu kwa maafisa wa usalama",
+        "Fikiria kuzima kwa muda akaunti za mitandao ya kijamii zilizoathirika",
+        "Tenga mpango wa usalama na mtu wa kuaminiwa",
+        "Hifadhi ushahidi wote (screenshots, ujumbe, tarehe)"
+      ],
+      "recommendationsKal": [
+        "Ketusie mental health professional kibagenge",
+        "Report uharifu law enforcement",
+        "Deactivate accounts che uharifu kogoren",
+        "Plan usalama ak piik nebo aanai",
+        "Document ushahidi tugul (screenshots, messages, dates)"
+      ]
+    }
+  },
+  {
+    "caseId": "002b6764-11a8-4266-b4ca-4d94e563ee33",
+    "clientId": "5b3c933c-0d45-45f0-beb7-d4e684a365d9",
+    "riskLevel": "high",
+    "tfgbvType": "sextortion",
+    "description": "sexual harrasment",
+    "platforms": [],
+    "status": "open",
+    "consentGiven": true,
+    "createdAt": "2026-04-16T14:01:17.361Z",
+    "updatedAt": "2026-04-16T14:01:17.388Z",
+    "assessmentAnswers": {
+      "tfgbv_1": 3,
+      "tfgbv_2": 4,
+      "tfgbv_3": 3,
+      "tfgbv_4": 2,
+      "tfgbv_5": 4,
+      "tfgbv_6": 2,
+      "tfgbv_7": 3,
+      "tfgbv_8": 3,
+      "tfgbv_9": 2,
+      "tfgbv_10": 2,
+      "tfgbv_11": 3,
+      "tfgbv_12": 3,
+      "tfgbv_13": 3,
+      "tfgbv_14": 3,
+      "tfgbv_15": 3,
+      "tfgbv_16": 3,
+      "tfgbv_17": 3,
+      "tfgbv_18": 3,
+      "tfgbv_19": 2
+    },
+    "assessmentResult": {
+      "clusterLevels": {
+        "impact": "critical",
+        "severity": "high",
+        "coping": "critical",
+        "support": "high"
+      },
+      "rawScores": {
+        "impact": 80,
+        "severity": 60,
+        "coping": 75,
+        "support": 70
+      },
+      "overallRisk": "high",
+      "topCluster": "impact",
+      "summary": "Your responses suggest significant negative impact from online harassment. You are experiencing notable emotional distress and may benefit from immediate support and intervention.",
+      "summarySw": "Majibu yako yanapendekeza athari kubwa za kihasibu kutokana na uharifu mtandaoni. Unakumbwa msongo mkubwa wa kihisia na unaweza kufaiki na usaidizi wa haraka na uingiliaji kati.",
+      "summaryKal": "Responseetab bo ak itab tishetab cheptisiet nebo uharifu online. Nandoa kiyabet ak kainet ketusie kibagenge",
+      "recommendations": [
+        "Seek immediate support from a mental health professional",
+        "Report the harassment to law enforcement",
+        "Consider temporarily deactivating affected social media accounts",
+        "Create a safety plan with a trusted person",
+        "Document all evidence (screenshots, messages, dates)"
+      ],
+      "recommendationsSw": [
+        "Tafuta usaidizi wa haraka kutoka kwa mtaalamu wa afya ya akili",
+        "Ripoti uharifu kwa maafisa wa usalama",
+        "Fikiria kuzima kwa muda akaunti za mitandao ya kijamii zilizoathirika",
+        "Tenga mpango wa usalama na mtu wa kuaminiwa",
+        "Hifadhi ushahidi wote (screenshots, ujumbe, tarehe)"
+      ],
+      "recommendationsKal": [
+        "Ketusie mental health professional kibagenge",
+        "Report uharifu law enforcement",
+        "Deactivate accounts che uharifu kogoren",
+        "Plan usalama ak piik nebo aanai",
+        "Document ushahidi tugul (screenshots, messages, dates)"
+      ]
+    }
+  },
+  {
+    "caseId": "3125e2b9-da9d-4214-97ea-19900c46b319",
+    "clientId": "58c48be7-eed7-46d3-b2da-7fe92a852302",
+    "riskLevel": "high",
+    "tfgbvType": "sextortion",
+    "description": "sexual harrasment",
+    "platforms": [
+      "WhatsApp"
+    ],
+    "status": "open",
+    "consentGiven": true,
+    "createdAt": "2026-04-16T14:03:36.011Z",
+    "updatedAt": "2026-04-16T14:03:36.036Z",
+    "assessmentAnswers": {
+      "tfgbv_1": 0,
+      "tfgbv_2": 1,
+      "tfgbv_3": 2,
+      "tfgbv_4": 2,
+      "tfgbv_5": 3,
+      "tfgbv_6": 3,
+      "tfgbv_7": 2,
+      "tfgbv_8": 3,
+      "tfgbv_9": 3,
+      "tfgbv_10": 4,
+      "tfgbv_11": 4,
+      "tfgbv_12": 4,
+      "tfgbv_13": 4,
+      "tfgbv_14": 4,
+      "tfgbv_15": 4,
+      "tfgbv_16": 4,
+      "tfgbv_17": 4,
+      "tfgbv_18": 4,
+      "tfgbv_19": 4
+    },
+    "assessmentResult": {
+      "clusterLevels": {
+        "impact": "moderate",
+        "severity": "critical",
+        "coping": "critical",
+        "support": "critical"
+      },
+      "rawScores": {
+        "impact": 40,
+        "severity": 75,
+        "coping": 100,
+        "support": 100
+      },
+      "overallRisk": "high",
+      "topCluster": "coping",
+      "summary": "Your responses suggest significant negative impact from online harassment. You are experiencing notable emotional distress and may benefit from immediate support and intervention.",
+      "summarySw": "Majibu yako yanapendekeza athari kubwa za kihasibu kutokana na uharifu mtandaoni. Unakumbwa msongo mkubwa wa kihisia na unaweza kufaiki na usaidizi wa haraka na uingiliaji kati.",
+      "summaryKal": "Responseetab bo ak itab tishetab cheptisiet nebo uharifu online. Nandoa kiyabet ak kainet ketusie kibagenge",
+      "recommendations": [
+        "Seek immediate support from a mental health professional",
+        "Report the harassment to law enforcement",
+        "Consider temporarily deactivating affected social media accounts",
+        "Create a safety plan with a trusted person",
+        "Document all evidence (screenshots, messages, dates)"
+      ],
+      "recommendationsSw": [
+        "Tafuta usaidizi wa haraka kutoka kwa mtaalamu wa afya ya akili",
+        "Ripoti uharifu kwa maafisa wa usalama",
+        "Fikiria kuzima kwa muda akaunti za mitandao ya kijamii zilizoathirika",
+        "Tenga mpango wa usalama na mtu wa kuaminiwa",
+        "Hifadhi ushahidi wote (screenshots, ujumbe, tarehe)"
+      ],
+      "recommendationsKal": [
+        "Ketusie mental health professional kibagenge",
+        "Report uharifu law enforcement",
+        "Deactivate accounts che uharifu kogoren",
+        "Plan usalama ak piik nebo aanai",
+        "Document ushahidi tugul (screenshots, messages, dates)"
+      ]
+    }
+  },
+  {
+    "caseId": "5112a73a-4b76-4b17-9987-c5f10d2ddc3f",
+    "clientId": "33184807-dc19-4b64-a397-3fed099feeaa",
+    "riskLevel": "critical",
+    "tfgbvType": "cyberstalking",
+    "description": "i feel stalked by other people online",
+    "platforms": [],
+    "status": "open",
+    "consentGiven": true,
+    "createdAt": "2026-04-17T06:19:18.549Z",
+    "updatedAt": "2026-04-17T06:19:18.583Z",
+    "assessmentAnswers": {
+      "tfgbv_1": 4,
+      "tfgbv_2": 4,
+      "tfgbv_3": 4,
+      "tfgbv_4": 3,
+      "tfgbv_5": 4,
+      "tfgbv_6": 4,
+      "tfgbv_7": 4,
+      "tfgbv_8": 4,
+      "tfgbv_9": 4,
+      "tfgbv_10": 3,
+      "tfgbv_11": 2,
+      "tfgbv_12": 3,
+      "tfgbv_13": 2,
+      "tfgbv_14": 3,
+      "tfgbv_15": 2,
+      "tfgbv_16": 3,
+      "tfgbv_17": 2,
+      "tfgbv_18": 3,
+      "tfgbv_19": 2
+    },
+    "assessmentResult": {
+      "clusterLevels": {
+        "impact": "critical",
+        "severity": "critical",
+        "coping": "high",
+        "support": "high"
+      },
+      "rawScores": {
+        "impact": 95,
+        "severity": 95,
+        "coping": 60,
+        "support": 65
+      },
+      "overallRisk": "critical",
+      "topCluster": "impact",
+      "summary": "Your responses indicate severe and ongoing harm from online experiences. Immediate professional support is strongly recommended. You do not have to face this alone.",
+      "summarySw": "Majibu yako yanashiria madhara makubwa na yanayoendelea kutokana na uzoefu wa mtandaoni. Usaidizi wa kitaaluma wa haraka unaopendekeza sana. Hujalazimika kukabiliana na hii peke yako.",
+      "summaryKal": "Responseetab bo ak itab tishetab cheiso miising ak online. Ketusietab professional kibagenge. Maam cheiswei",
+      "recommendations": [
+        "Contact emergency services or a crisis helpline immediately",
+        "Reach out to a trusted family member or friend right now",
+        "Do not delete any evidence - preserve everything",
+        "Consider staying with someone you trust temporarily",
+        "Report to police and seek a protection order if needed",
+        "Contact a lawyer who specializes in cybercrime or GBV"
+      ],
+      "recommendationsSw": [
+        "Wasiliana na huduma za dharura au line ya msaada wa dharura mara moja",
+        "Wasiliana na mwanafamilia au rafiki wa kuaminiwa sasa hivi",
+        "Usifute ushahidi wowote - hifadhi kila kitu",
+        "Fikiria kubaki na mtu unayemuamini kwa muda",
+        "Ripoti kwa polisi na tafuta amri ya ulinzi ikiwa inahitajika",
+        "Wasiliana na mwanasheria mtaalamu wa uhalifu wa mtandao au GBV"
+      ],
+      "recommendationsKal": [
+        "Contact emergency services ak crisis helpline kibagenge",
+        "Contact family member ak friend nebo aanai kibagenge",
+        "Maam delete ushahidi - preserve tugul",
+        "Stay ak piik nebo aanai kogoren",
+        "Report police ak seek protection order ngun cheibo",
+        "Contact lawyer nebo cybercrime ak GBV"
+      ]
+    }
+  }
+]

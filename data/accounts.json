@@ -1,0 +1,98 @@
+[
+  {
+    "accountId": "d7ee6fbc-2881-4584-92ab-98d5db47004f",
+    "username": "leny",
+    "alias": "lenny",
+    "phone": "0706137323",
+    "email": "mafabironald@gmail.com",
+    "role": "survivor",
+    "status": "active",
+    "createdAt": "2026-04-16T17:27:31.613Z",
+    "lastLoginAt": "2026-04-17T13:50:29.100Z",
+    "totalSessions": 4,
+    "metadata": {
+      "firstIntakeComplete": true,
+      "preferredLanguage": "en",
+      "consentGiven": true,
+      "consentTimestamp": "2026-04-16T17:27:31.613Z",
+      "requirePasswordChange": true,
+      "passwordResetAt": "2026-04-17T11:16:00.448Z"
+    },
+    "lastSessionId": "1a3b2bd1-7809-47c2-a799-12950682b50c",
+    "passwordHash": "d19ee4b"
+  },
+  {
+    "accountId": "9af6080e-173f-47e6-974d-c5454eb116ee",
+    "username": "Lawrence",
+    "alias": "Mafabi",
+    "email": "kingjesuschurch@gmail.com",
+    "role": "online_harms",
+    "status": "active",
+    "createdAt": "2026-04-17T06:18:12.009Z",
+    "lastLoginAt": "2026-04-17T06:18:12.009Z",
+    "totalSessions": 2,
+    "metadata": {
+      "firstIntakeComplete": false,
+      "preferredLanguage": "en",
+      "consentGiven": true,
+      "consentTimestamp": "2026-04-17T06:18:12.009Z"
+    },
+    "lastSessionId": "b307785e-d4a4-43b6-8ad3-d85d658dd1a0"
+  },
+  {
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "username": "chess",
+    "alias": "chess",
+    "role": "survivor",
+    "status": "active",
+    "createdAt": "2026-04-20T09:51:35.734Z",
+    "lastLoginAt": "2026-04-20T09:54:08.331Z",
+    "totalSessions": 20,
+    "metadata": {
+      "firstIntakeComplete": false,
+      "preferredLanguage": "en",
+      "consentGiven": true,
+      "consentTimestamp": "2026-04-20T09:51:35.734Z",
+      "requirePasswordChange": true,
+      "passwordResetAt": "2026-04-20T09:52:59.602Z"
+    },
+    "lastSessionId": "ab518316-fb22-4cb7-b770-fbc341f0eb50",
+    "passwordHash": "1618ac7f"
+  },
+  {
+    "accountId": "2bd6b2d2-4304-4e6e-9550-186f73075b95",
+    "username": "pen",
+    "alias": "pen",
+    "phone": "070613723",
+    "email": "mafabironald@gmail.com",
+    "role": "survivor",
+    "status": "active",
+    "createdAt": "2026-04-20T09:55:23.821Z",
+    "lastLoginAt": "2026-04-20T09:55:23.821Z",
+    "totalSessions": 2,
+    "metadata": {
+      "firstIntakeComplete": false,
+      "preferredLanguage": "en",
+      "consentGiven": true,
+      "consentTimestamp": "2026-04-20T09:55:23.821Z"
+    },
+    "lastSessionId": "878db686-18ef-456b-b635-9d4d8cecda6d"
+  },
+  {
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "username": "liz",
+    "alias": "LIZ",
+    "role": "survivor",
+    "status": "active",
+    "createdAt": "2026-04-20T10:05:39.193Z",
+    "lastLoginAt": "2026-04-21T14:09:52.105Z",
+    "totalSessions": 26,
+    "metadata": {
+      "firstIntakeComplete": false,
+      "preferredLanguage": "en",
+      "consentGiven": true,
+      "consentTimestamp": "2026-04-20T10:05:39.193Z"
+    },
+    "lastSessionId": "fdafc33b-6a20-4993-afa0-757963a5b9bb"
+  }
+]

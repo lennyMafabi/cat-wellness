@@ -1,0 +1,316 @@
+[
+  {
+    "logId": "36f696fb-91fc-4d4e-92cc-80fe221113bf",
+    "action": "case_created",
+    "clientId": "80574e1c-d483-4cc7-b77e-46449d33498d",
+    "details": {
+      "alias": "Ronald Mafabi Mulongo",
+      "consentGiven": true
+    },
+    "timestamp": "2026-04-16T09:26:30.370Z"
+  },
+  {
+    "logId": "14419cd5-999e-4989-aa1f-432fe7220d02",
+    "action": "case_created",
+    "caseId": "dbf8d0b9-20be-4670-9775-1b725cf2e287",
+    "clientId": "80574e1c-d483-4cc7-b77e-46449d33498d",
+    "details": {
+      "tfgbvType": "sextortion",
+      "riskLevel": "medium"
+    },
+    "timestamp": "2026-04-16T09:26:30.376Z"
+  },
+  {
+    "logId": "1261a8d8-6686-4d3b-8b07-e9427496ebba",
+    "action": "case_created",
+    "clientId": "967e66d7-9ab9-4ca2-82ff-95daf404fbfe",
+    "details": {
+      "alias": "Ronald Mafabi Mulongo",
+      "consentGiven": true
+    },
+    "timestamp": "2026-04-16T09:30:01.564Z"
+  },
+  {
+    "logId": "e5d47991-1003-46f6-9242-25aec0f32be1",
+    "action": "case_created",
+    "caseId": "25c15b93-2956-4b95-a7eb-d619754b481d",
+    "clientId": "967e66d7-9ab9-4ca2-82ff-95daf404fbfe",
+    "details": {
+      "tfgbvType": "sextortion",
+      "riskLevel": "medium"
+    },
+    "timestamp": "2026-04-16T09:30:01.571Z"
+  },
+  {
+    "logId": "07a8db5e-ebab-49e4-b807-b317f753e126",
+    "action": "evidence_added",
+    "caseId": "25c15b93-2956-4b95-a7eb-d619754b481d",
+    "clientId": "967e66d7-9ab9-4ca2-82ff-95daf404fbfe",
+    "details": {
+      "evidenceType": "screenshot",
+      "evidenceId": "f212254b-77c2-44e4-af92-dc9091c0cce9"
+    },
+    "timestamp": "2026-04-16T09:30:01.580Z"
+  },
+  {
+    "logId": "b5b21c63-9180-4fbf-97ce-7255c1745540",
+    "action": "case_created",
+    "clientId": "bb9470b6-7330-4e14-aba5-4923b77f811a",
+    "details": {
+      "alias": "Ronald Mafabi Mulongo",
+      "consentGiven": true
+    },
+    "timestamp": "2026-04-16T10:21:43.381Z"
+  },
+  {
+    "logId": "98ab47d4-0e3f-4958-a36f-0acd226f47ac",
+    "action": "case_created",
+    "caseId": "b52b1cd7-fba4-43b3-ba48-297600e23ef7",
+    "clientId": "bb9470b6-7330-4e14-aba5-4923b77f811a",
+    "details": {
+      "tfgbvType": "sextortion",
+      "riskLevel": "medium"
+    },
+    "timestamp": "2026-04-16T10:21:43.390Z"
+  },
+  {
+    "logId": "7ce6c745-6d1c-42a7-a0c1-a1d1a85c11df",
+    "action": "case_viewed",
+    "caseId": "25c15b93-2956-4b95-a7eb-d619754b481d",
+    "clientId": "967e66d7-9ab9-4ca2-82ff-95daf404fbfe",
+    "adminUsername": "admin",
+    "details": {},
+    "timestamp": "2026-04-16T10:25:28.068Z",
+    "ipAddress": "::1"
+  },
+  {
+    "logId": "8e661b63-a49e-4ca2-9611-3b3d42fbfb77",
+    "action": "case_created",
+    "clientId": "458e5e34-4dbd-4e10-966e-997cd7b2ccee",
+    "details": {
+      "alias": "Ronald Mafabi Mulongo",
+      "consentGiven": true
+    },
+    "timestamp": "2026-04-16T10:53:13.912Z"
+  },
+  {
+    "logId": "0275dda9-8719-4c95-9605-17fa79ec41ca",
+    "action": "case_created",
+    "caseId": "fab27121-8ba7-4c1a-8362-e5a92b7a2dcc",
+    "clientId": "458e5e34-4dbd-4e10-966e-997cd7b2ccee",
+    "details": {
+      "tfgbvType": "sextortion",
+      "riskLevel": "high"
+    },
+    "timestamp": "2026-04-16T10:53:13.925Z"
+  },
+  {
+    "logId": "95824ce4-adb3-4b19-a373-a6b99ba1c587",
+    "action": "evidence_added",
+    "caseId": "fab27121-8ba7-4c1a-8362-e5a92b7a2dcc",
+    "clientId": "458e5e34-4dbd-4e10-966e-997cd7b2ccee",
+    "details": {
+      "evidenceType": "screenshot",
+      "evidenceId": "0dbd495c-c421-4105-bc0c-c8c3092020cf"
+    },
+    "timestamp": "2026-04-16T10:53:13.937Z"
+  },
+  {
+    "logId": "9d0e196c-1c1a-41f7-aa82-2b1dbc8435b0",
+    "action": "case_viewed",
+    "caseId": "dbf8d0b9-20be-4670-9775-1b725cf2e287",
+    "clientId": "80574e1c-d483-4cc7-b77e-46449d33498d",
+    "adminUsername": "admin",
+    "details": {},
+    "timestamp": "2026-04-16T10:55:12.896Z",
+    "ipAddress": "::1"
+  },
+  {
+    "logId": "dde5ce31-01dc-4815-9a9f-1446f7197143",
+    "action": "case_viewed",
+    "caseId": "fab27121-8ba7-4c1a-8362-e5a92b7a2dcc",
+    "clientId": "458e5e34-4dbd-4e10-966e-997cd7b2ccee",
+    "adminUsername": "admin",
+    "details": {},
+    "timestamp": "2026-04-16T10:57:12.813Z",
+    "ipAddress": "::1"
+  },
+  {
+    "logId": "6393aa09-8807-4b32-94ab-8b2d224fcc00",
+    "action": "case_created",
+    "clientId": "f83827ab-f6fc-46f8-b8e3-8502b4019552",
+    "details": {
+      "fullName": "Ronald Mafabi Mulongo",
+      "consentGiven": true
+    },
+    "timestamp": "2026-04-16T12:00:12.320Z"
+  },
+  {
+    "logId": "cc62f77d-8a10-4fb9-86e3-6e22e595e733",
+    "action": "case_created",
+    "caseId": "f3e415de-5d4f-4856-9ffb-cee34ea9d35e",
+    "clientId": "f83827ab-f6fc-46f8-b8e3-8502b4019552",
+    "details": {
+      "tfgbvType": "sextortion",
+      "riskLevel": "high"
+    },
+    "timestamp": "2026-04-16T12:00:12.330Z"
+  },
+  {
+    "logId": "1bb5d186-cbda-4e52-9209-81d0dc873aa8",
+    "action": "evidence_added",
+    "caseId": "f3e415de-5d4f-4856-9ffb-cee34ea9d35e",
+    "clientId": "f83827ab-f6fc-46f8-b8e3-8502b4019552",
+    "details": {
+      "evidenceType": "screenshot",
+      "evidenceId": "f765a4c4-0749-49bd-8ff4-51f61e74eaab"
+    },
+    "timestamp": "2026-04-16T12:00:12.344Z"
+  },
+  {
+    "logId": "0fa24e10-ee24-4c63-85f6-a5e0bf3c1fcb",
+    "action": "case_viewed",
+    "caseId": "dbf8d0b9-20be-4670-9775-1b725cf2e287",
+    "clientId": "80574e1c-d483-4cc7-b77e-46449d33498d",
+    "adminUsername": "admin",
+    "details": {},
+    "timestamp": "2026-04-16T12:03:01.895Z",
+    "ipAddress": "::1"
+  },
+  {
+    "logId": "d1bad1d6-8a4a-47ce-bb12-fc390508992b",
+    "action": "case_viewed",
+    "caseId": "25c15b93-2956-4b95-a7eb-d619754b481d",
+    "clientId": "967e66d7-9ab9-4ca2-82ff-95daf404fbfe",
+    "adminUsername": "admin",
+    "details": {},
+    "timestamp": "2026-04-16T12:03:24.014Z",
+    "ipAddress": "::1"
+  },
+  {
+    "logId": "adc3524a-79d8-4076-8798-3d4b873c95a2",
+    "action": "case_created",
+    "clientId": "5b3c933c-0d45-45f0-beb7-d4e684a365d9",
+    "details": {
+      "fullName": "Ronald Mafabi Mulongo",
+      "consentGiven": true
+    },
+    "timestamp": "2026-04-16T14:01:17.358Z"
+  },
+  {
+    "logId": "094c2712-5a71-40d7-a275-900278828863",
+    "action": "case_created",
+    "caseId": "002b6764-11a8-4266-b4ca-4d94e563ee33",
+    "clientId": "5b3c933c-0d45-45f0-beb7-d4e684a365d9",
+    "details": {
+      "tfgbvType": "sextortion",
+      "riskLevel": "high"
+    },
+    "timestamp": "2026-04-16T14:01:17.374Z"
+  },
+  {
+    "logId": "6bc0671d-4587-4cb4-b397-bb137aede43c",
+    "action": "evidence_added",
+    "caseId": "002b6764-11a8-4266-b4ca-4d94e563ee33",
+    "clientId": "5b3c933c-0d45-45f0-beb7-d4e684a365d9",
+    "details": {
+      "evidenceType": "screenshot",
+      "evidenceId": "667d8e25-3682-407a-b853-d5ef79737433"
+    },
+    "timestamp": "2026-04-16T14:01:17.389Z"
+  },
+  {
+    "logId": "2c86687e-e101-41f2-93b1-daab7e2c8d3b",
+    "action": "case_created",
+    "clientId": "58c48be7-eed7-46d3-b2da-7fe92a852302",
+    "details": {
+      "fullName": "Ronald Mafabi Mulongo",
+      "consentGiven": true
+    },
+    "timestamp": "2026-04-16T14:03:36.006Z"
+  },
+  {
+    "logId": "0bf4af22-8c23-419f-b2cb-0bbf46c16fab",
+    "action": "case_created",
+    "caseId": "3125e2b9-da9d-4214-97ea-19900c46b319",
+    "clientId": "58c48be7-eed7-46d3-b2da-7fe92a852302",
+    "details": {
+      "tfgbvType": "sextortion",
+      "riskLevel": "high"
+    },
+    "timestamp": "2026-04-16T14:03:36.020Z"
+  },
+  {
+    "logId": "d2b87e65-8aff-4988-b40b-3213bac463e8",
+    "action": "evidence_added",
+    "caseId": "3125e2b9-da9d-4214-97ea-19900c46b319",
+    "clientId": "58c48be7-eed7-46d3-b2da-7fe92a852302",
+    "details": {
+      "evidenceType": "screenshot",
+      "evidenceId": "15c9e214-985f-48b6-bcad-8aa5c601819e"
+    },
+    "timestamp": "2026-04-16T14:03:36.037Z"
+  },
+  {
+    "logId": "b090e26b-f551-437a-a465-687765dda81a",
+    "action": "case_viewed",
+    "caseId": "3125e2b9-da9d-4214-97ea-19900c46b319",
+    "clientId": "58c48be7-eed7-46d3-b2da-7fe92a852302",
+    "adminUsername": "admin",
+    "details": {},
+    "timestamp": "2026-04-16T14:17:06.424Z",
+    "ipAddress": "127.0.0.1"
+  },
+  {
+    "logId": "820d4dec-f742-49ca-ba7f-1e6fb90fe6ad",
+    "action": "case_created",
+    "clientId": "33184807-dc19-4b64-a397-3fed099feeaa",
+    "details": {
+      "fullName": "Ronald Mafabi Mulongo",
+      "consentGiven": true
+    },
+    "timestamp": "2026-04-17T06:19:18.541Z"
+  },
+  {
+    "logId": "acb2f5c5-110c-4548-b95d-652047e06004",
+    "action": "case_created",
+    "caseId": "5112a73a-4b76-4b17-9987-c5f10d2ddc3f",
+    "clientId": "33184807-dc19-4b64-a397-3fed099feeaa",
+    "details": {
+      "tfgbvType": "cyberstalking",
+      "riskLevel": "critical"
+    },
+    "timestamp": "2026-04-17T06:19:18.557Z"
+  },
+  {
+    "logId": "98cb8a31-a3e8-46d9-8b03-5ce840b0194a",
+    "action": "evidence_added",
+    "caseId": "5112a73a-4b76-4b17-9987-c5f10d2ddc3f",
+    "clientId": "33184807-dc19-4b64-a397-3fed099feeaa",
+    "details": {
+      "evidenceType": "screenshot",
+      "evidenceId": "70b53ba2-56a1-41fe-9252-bdbd16bd74ed"
+    },
+    "timestamp": "2026-04-17T06:19:18.585Z"
+  },
+  {
+    "logId": "b951f9b9-3b4a-43bb-9563-57e6f7b1f41d",
+    "action": "case_viewed",
+    "caseId": "5112a73a-4b76-4b17-9987-c5f10d2ddc3f",
+    "clientId": "33184807-dc19-4b64-a397-3fed099feeaa",
+    "adminUsername": "admin",
+    "details": {},
+    "timestamp": "2026-04-17T06:24:21.070Z",
+    "ipAddress": "::1"
+  },
+  {
+    "logId": "a14ca62e-2e99-442f-9392-adae7d031f6e",
+    "action": "case_viewed",
+    "caseId": "5112a73a-4b76-4b17-9987-c5f10d2ddc3f",
+    "clientId": "33184807-dc19-4b64-a397-3fed099feeaa",
+    "adminUsername": "admin",
+    "details": {},
+    "timestamp": "2026-04-20T10:20:38.017Z",
+    "ipAddress": "::1"
+  }
+]

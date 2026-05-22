@@ -1,0 +1,82 @@
+[
+  {
+    "clientId": "80574e1c-d483-4cc7-b77e-46449d33498d",
+    "alias": "Ronald Mafabi Mulongo",
+    "phone": "0706137323",
+    "email": "mafabironald@gmail.com",
+    "consentGiven": true,
+    "consentTimestamp": "2026-04-16T09:26:30.357Z",
+    "createdAt": "2026-04-16T09:26:30.357Z",
+    "lastActivityAt": "2026-04-16T09:26:30.375Z"
+  },
+  {
+    "clientId": "967e66d7-9ab9-4ca2-82ff-95daf404fbfe",
+    "alias": "Ronald Mafabi Mulongo",
+    "phone": "07-6137323",
+    "email": "mafabironald@gmail.com",
+    "consentGiven": true,
+    "consentTimestamp": "2026-04-16T09:30:01.559Z",
+    "createdAt": "2026-04-16T09:30:01.559Z",
+    "lastActivityAt": "2026-04-16T09:30:01.569Z"
+  },
+  {
+    "clientId": "bb9470b6-7330-4e14-aba5-4923b77f811a",
+    "alias": "Ronald Mafabi Mulongo",
+    "phone": "0706137323",
+    "email": "mafabironald@gmail.com",
+    "consentGiven": true,
+    "consentTimestamp": "2026-04-16T10:21:43.374Z",
+    "createdAt": "2026-04-16T10:21:43.374Z",
+    "lastActivityAt": "2026-04-16T10:21:43.389Z"
+  },
+  {
+    "clientId": "458e5e34-4dbd-4e10-966e-997cd7b2ccee",
+    "alias": "Ronald Mafabi Mulongo",
+    "phone": "0706137323",
+    "email": "mafabironald@gmail.com",
+    "consentGiven": true,
+    "consentTimestamp": "2026-04-16T10:53:13.904Z",
+    "createdAt": "2026-04-16T10:53:13.904Z",
+    "lastActivityAt": "2026-04-16T10:53:13.924Z"
+  },
+  {
+    "clientId": "f83827ab-f6fc-46f8-b8e3-8502b4019552",
+    "fullName": "Ronald Mafabi Mulongo",
+    "phone": "0706137323",
+    "email": "mafabironald@gmail.com",
+    "consentGiven": true,
+    "consentTimestamp": "2026-04-16T12:00:12.310Z",
+    "createdAt": "2026-04-16T12:00:12.310Z",
+    "lastActivityAt": "2026-04-16T12:00:12.329Z"
+  },
+  {
+    "clientId": "5b3c933c-0d45-45f0-beb7-d4e684a365d9",
+    "fullName": "Ronald Mafabi Mulongo",
+    "phone": "0706137323",
+    "email": "mafabironald@gmail.com",
+    "consentGiven": true,
+    "consentTimestamp": "2026-04-16T14:01:17.338Z",
+    "createdAt": "2026-04-16T14:01:17.338Z",
+    "lastActivityAt": "2026-04-16T14:01:17.373Z"
+  },
+  {
+    "clientId": "58c48be7-eed7-46d3-b2da-7fe92a852302",
+    "fullName": "Ronald Mafabi Mulongo",
+    "phone": "0706137323",
+    "email": "mafabironald@gmail.com",
+    "consentGiven": true,
+    "consentTimestamp": "2026-04-16T14:03:35.988Z",
+    "createdAt": "2026-04-16T14:03:35.988Z",
+    "lastActivityAt": "2026-04-16T14:03:36.019Z"
+  },
+  {
+    "clientId": "33184807-dc19-4b64-a397-3fed099feeaa",
+    "fullName": "Ronald Mafabi Mulongo",
+    "phone": "0706137323",
+    "email": "mafabironald@gmail.com",
+    "consentGiven": true,
+    "consentTimestamp": "2026-04-17T06:19:18.526Z",
+    "createdAt": "2026-04-17T06:19:18.526Z",
+    "lastActivityAt": "2026-04-17T06:19:18.557Z"
+  }
+]

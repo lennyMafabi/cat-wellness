@@ -1,0 +1,30 @@
+[
+  {
+    "id": "961038a0-b35c-4dc1-a04d-a461d1607d42",
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin",
+    "createdAt": "2026-04-09T13:00:02.425Z"
+  },
+  {
+    "id": "876dcad4-3f07-48db-b1e3-a096732db7f4",
+    "username": "mariam",
+    "password": "admin",
+    "role": "staff",
+    "createdAt": "2026-04-09T13:16:21.012Z"
+  },
+  {
+    "id": "fe156956-f89f-4ced-b205-0948db2bfcb4",
+    "username": "juma",
+    "password": "admin",
+    "role": "staff",
+    "createdAt": "2026-04-09T13:16:33.566Z"
+  },
+  {
+    "id": "74e93924-ba4f-4402-90c4-3fe002f7d75c",
+    "username": "mercy",
+    "password": "admin",
+    "role": "staff",
+    "createdAt": "2026-04-09T13:16:45.210Z"
+  }
+]

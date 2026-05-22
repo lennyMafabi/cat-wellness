@@ -1,0 +1,146 @@
+[
+  {
+    "consentId": "27b430f0-0db9-4af1-bd8d-7bcf2fc68c83",
+    "clientId": "80574e1c-d483-4cc7-b77e-46449d33498d",
+    "type": "data_storage",
+    "given": true,
+    "timestamp": "2026-04-16T09:26:30.366Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "5aac5554-07f8-4345-a840-e5f13197eb6b",
+    "clientId": "80574e1c-d483-4cc7-b77e-46449d33498d",
+    "type": "admin_access",
+    "given": true,
+    "timestamp": "2026-04-16T09:26:30.368Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "bcd7cef0-2753-49bc-bb1c-bde9e4a41a1a",
+    "clientId": "967e66d7-9ab9-4ca2-82ff-95daf404fbfe",
+    "type": "data_storage",
+    "given": true,
+    "timestamp": "2026-04-16T09:30:01.561Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "7d72d146-c76e-412a-a300-5702618fc71d",
+    "clientId": "967e66d7-9ab9-4ca2-82ff-95daf404fbfe",
+    "type": "admin_access",
+    "given": true,
+    "timestamp": "2026-04-16T09:30:01.563Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "de57bd91-230c-45c9-945f-c0a6e8e54a23",
+    "clientId": "bb9470b6-7330-4e14-aba5-4923b77f811a",
+    "type": "data_storage",
+    "given": true,
+    "timestamp": "2026-04-16T10:21:43.377Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "794f18ce-8425-4b7f-91a7-47434200d9d5",
+    "clientId": "bb9470b6-7330-4e14-aba5-4923b77f811a",
+    "type": "admin_access",
+    "given": true,
+    "timestamp": "2026-04-16T10:21:43.379Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "e814743e-ff7c-4118-9db2-5cb33d4518ed",
+    "clientId": "458e5e34-4dbd-4e10-966e-997cd7b2ccee",
+    "type": "data_storage",
+    "given": true,
+    "timestamp": "2026-04-16T10:53:13.907Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "695135cc-6437-4e52-90b1-848e41652f43",
+    "clientId": "458e5e34-4dbd-4e10-966e-997cd7b2ccee",
+    "type": "admin_access",
+    "given": true,
+    "timestamp": "2026-04-16T10:53:13.910Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "11326216-8e49-4ceb-9f50-a1629bb67b32",
+    "clientId": "f83827ab-f6fc-46f8-b8e3-8502b4019552",
+    "type": "data_storage",
+    "given": true,
+    "timestamp": "2026-04-16T12:00:12.314Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "67c2ddb3-de65-46dc-bad2-01d09c535f04",
+    "clientId": "f83827ab-f6fc-46f8-b8e3-8502b4019552",
+    "type": "admin_access",
+    "given": true,
+    "timestamp": "2026-04-16T12:00:12.318Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "c93b49b9-455d-4529-a939-e714340f13bf",
+    "clientId": "5b3c933c-0d45-45f0-beb7-d4e684a365d9",
+    "type": "data_storage",
+    "given": true,
+    "timestamp": "2026-04-16T14:01:17.342Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "59594c6b-6ba6-411f-98b2-5da8c1a611d2",
+    "clientId": "5b3c933c-0d45-45f0-beb7-d4e684a365d9",
+    "type": "admin_access",
+    "given": true,
+    "timestamp": "2026-04-16T14:01:17.355Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "32a0f716-b898-4924-8c2c-7f438d309e5c",
+    "clientId": "58c48be7-eed7-46d3-b2da-7fe92a852302",
+    "type": "data_storage",
+    "given": true,
+    "timestamp": "2026-04-16T14:03:35.991Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "4d5c1a5f-02bd-4c4b-8823-fa23154e6039",
+    "clientId": "58c48be7-eed7-46d3-b2da-7fe92a852302",
+    "type": "admin_access",
+    "given": true,
+    "timestamp": "2026-04-16T14:03:36.001Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "ea62b872-ed46-43ec-bb2e-3404aa6bce92",
+    "clientId": "33184807-dc19-4b64-a397-3fed099feeaa",
+    "type": "data_storage",
+    "given": true,
+    "timestamp": "2026-04-17T06:19:18.532Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "consentId": "58450a72-4ac2-45ae-b3ff-e5c5c6b403b7",
+    "clientId": "33184807-dc19-4b64-a397-3fed099feeaa",
+    "type": "admin_access",
+    "given": true,
+    "timestamp": "2026-04-17T06:19:18.537Z",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  }
+]

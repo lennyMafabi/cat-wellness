@@ -1,0 +1,1041 @@
+[
+  {
+    "sessionId": "4c1c9fba-63d2-4b69-98b1-68e0c9218c29",
+    "accountId": "d7ee6fbc-2881-4584-92ab-98d5db47004f",
+    "date": "2026-04-16T17:27:31.627Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": true,
+    "riskScore": 0.7250000000000001,
+    "emotionalState": "critical",
+    "responses": [
+      {
+        "questionId": "r1_q1",
+        "questionText": "What brings you here today? Please describe what is happening.",
+        "answer": "stress",
+        "timestamp": "2026-04-16T17:28:45.587Z",
+        "category": "baseline"
+      },
+      {
+        "questionId": "r1_q2",
+        "questionText": "How are you feeling right now?",
+        "answer": "Very distressed",
+        "timestamp": "2026-04-16T17:28:45.587Z",
+        "category": "baseline"
+      },
+      {
+        "questionId": "r1_q3",
+        "questionText": "On a scale of 1-10, how would you rate your current emotional state? (1 = very calm, 10 = extreme distress)",
+        "answer": 9,
+        "timestamp": "2026-04-16T17:28:45.587Z",
+        "category": "baseline"
+      },
+      {
+        "questionId": "r1_q4",
+        "questionText": "Is this issue ongoing right now?",
+        "answer": true,
+        "timestamp": "2026-04-16T17:28:45.587Z",
+        "category": "baseline"
+      }
+    ],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "completedAt": "2026-04-16T17:28:46.882Z"
+  },
+  {
+    "sessionId": "b307785e-d4a4-43b6-8ad3-d85d658dd1a0",
+    "accountId": "9af6080e-173f-47e6-974d-c5454eb116ee",
+    "date": "2026-04-17T06:18:12.034Z",
+    "module": "online_harms",
+    "round": 1,
+    "isFirstSession": true,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "083db9c8-c259-4042-84e3-32c3b05bb11e",
+    "accountId": "d7ee6fbc-2881-4584-92ab-98d5db47004f",
+    "date": "2026-04-17T11:16:27.460Z",
+    "module": "survivor",
+    "round": 2,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [
+      {
+        "questionId": "r2_q1",
+        "questionText": "Has this situation happened before?",
+        "answer": "Yes, once before",
+        "timestamp": "2026-04-17T11:17:00.844Z",
+        "category": "context"
+      },
+      {
+        "questionId": "r2_q2_context",
+        "questionText": "Who is involved in this situation? (Select all that apply)",
+        "answer": "Stranger",
+        "timestamp": "2026-04-17T11:17:00.844Z",
+        "category": "context"
+      },
+      {
+        "questionId": "r2_q4_survivor",
+        "questionText": "How long ago did the traumatic experience occur?",
+        "answer": "Within the last year",
+        "timestamp": "2026-04-17T11:17:00.844Z",
+        "category": "context"
+      }
+    ],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "completedAt": "2026-04-17T11:17:00.875Z"
+  },
+  {
+    "sessionId": "1a3b2bd1-7809-47c2-a799-12950682b50c",
+    "accountId": "d7ee6fbc-2881-4584-92ab-98d5db47004f",
+    "date": "2026-04-17T13:50:29.111Z",
+    "module": "survivor",
+    "round": 3,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "1e6589e7-483b-4255-9dff-431b70f2a758",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:51:35.746Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": true,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "8b208fa9-9dc7-4adb-9fea-cdfdbb81c3cc",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:52:22.170Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "97c2e659-519d-490e-87ca-056c1d207b64",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:52:23.211Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "c7361475-e1e8-46ae-badd-c836925c727e",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:52:24.002Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "2be961e4-a16b-424d-aaf8-dcb01f24d375",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:52:24.664Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "8a68b204-90b5-4778-bdfe-6b94e795cb83",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:52:31.258Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "0da6a50b-ece3-4896-83d1-b61a7aaa5ed3",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:52:35.290Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "10ccb5aa-9abd-4e75-a852-ed56b5409bf4",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:52:36.299Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "2c3990a6-a93b-461f-a698-e536707a321e",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:52:36.884Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "58bdd650-4fb7-49f4-8102-4c67b98f43ae",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:53:30.421Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "ae4c4b62-88ca-4e5d-baac-74538445c446",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:53:32.589Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "5a004b02-017b-4b0c-8cec-52e7ec27ee5f",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:53:33.395Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "0cbc9598-c26c-4313-b1b0-2d237ecf2365",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:53:34.168Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "3dfc8204-2517-49ee-8e15-b41dbf570033",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:53:34.686Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "3a1df909-9049-44ac-b67a-21bc3fea0b2b",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:53:34.973Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "a308bba2-02a9-41bc-a387-f269bd0d53e3",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:53:35.710Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "7ed81f54-bd45-4af5-b930-e25ef765c6f3",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:54:06.521Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "79f20dbc-6b6e-4892-82f1-9de101a6fbe5",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:54:07.786Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "ab518316-fb22-4cb7-b770-fbc341f0eb50",
+    "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
+    "date": "2026-04-20T09:54:08.337Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "878db686-18ef-456b-b635-9d4d8cecda6d",
+    "accountId": "2bd6b2d2-4304-4e6e-9550-186f73075b95",
+    "date": "2026-04-20T09:55:23.828Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": true,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "3a6b8c5e-1f5e-452e-9796-b6cf2ae8430c",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T10:05:39.203Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": true,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "1a2ab0e4-784d-4e71-a182-bfa70cdcfb50",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T10:12:33.902Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "6ceb17ef-4f4c-4ceb-a90c-1108b7365f7b",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T10:12:35.838Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "95b97a88-ca25-4c00-a23a-9eac7b6257eb",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T10:12:36.554Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "c2c241fc-3743-488e-bd51-791ec3d1c2f4",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T10:12:37.143Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "33df1195-b5d6-477a-a6b3-11cf78d11780",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T10:12:37.810Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "9ee28c28-afe8-4446-8ab9-f415fd438488",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T10:16:20.468Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "1ac97e1f-fa80-444d-bf67-2b535f59c86d",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T10:17:36.102Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "6a372dde-c5e4-4f9c-a42c-08dffdf65528",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T10:38:04.571Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "4c89887c-f4e0-4516-8fa1-1b72362a337a",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T10:40:59.014Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "f9e38396-c3ae-4dd8-83cb-3a617412003f",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T11:13:07.680Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "4a0eef6d-78cf-404a-a1fa-ca098020e9d4",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T11:14:56.000Z",
+    "module": "extended-follow-up",
+    "round": 1,
+    "isFirstSession": true,
+    "riskScore": 0.48,
+    "emotionalState": "Stable",
+    "responses": [
+      {
+        "questionId": "ptsd_1",
+        "questionText": "Question ptsd_1",
+        "answer": 0,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_2",
+        "questionText": "Question ptsd_2",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_3",
+        "questionText": "Question ptsd_3",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_4",
+        "questionText": "Question ptsd_4",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_5",
+        "questionText": "Question ptsd_5",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_6",
+        "questionText": "Question ptsd_6",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_7",
+        "questionText": "Question ptsd_7",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "anxiety_1",
+        "questionText": "Question anxiety_1",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "anxiety_2",
+        "questionText": "Question anxiety_2",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "anxiety_3",
+        "questionText": "Question anxiety_3",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "anxiety_4",
+        "questionText": "Question anxiety_4",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "anxiety_5",
+        "questionText": "Question anxiety_5",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "depression_1",
+        "questionText": "Question depression_1",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "depression_2",
+        "questionText": "Question depression_2",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "depression_3",
+        "questionText": "Question depression_3",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "depression_4",
+        "questionText": "Question depression_4",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "depression_5",
+        "questionText": "Question depression_5",
+        "answer": 2,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "functioning_1",
+        "questionText": "Question functioning_1",
+        "answer": 1,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "functioning_2",
+        "questionText": "Question functioning_2",
+        "answer": 1,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "functioning_3",
+        "questionText": "Question functioning_3",
+        "answer": 4,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "wellness_1",
+        "questionText": "Question wellness_1",
+        "answer": 4,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "wellness_2",
+        "questionText": "Question wellness_2",
+        "answer": 4,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "wellness_3",
+        "questionText": "Question wellness_3",
+        "answer": 1,
+        "timestamp": "2026-04-20T11:14:56.008Z",
+        "category": "follow-up"
+      }
+    ],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "durationMinutes": 11,
+    "completedAt": "2026-04-20T11:14:56.009Z"
+  },
+  {
+    "sessionId": "7dbe473b-a7cd-42b2-8612-faf1bd2f4e5c",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T11:35:49.095Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "00a20039-7aa6-4774-a86b-72b1f30e526c",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T11:36:14.987Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "d564f4af-d99d-43ff-adb2-f6f3cc2887fc",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T11:48:32.177Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "2e9aaa50-634f-4cf8-91a6-78998b8aafc3",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-20T13:24:36.965Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "62516668-f42b-4fb2-ac42-04e48f4d283c",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-21T03:59:29.945Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "23caec03-f7df-4659-a0dc-4338504727ba",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-21T05:36:45.085Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "22e00488-d47c-4088-b1cf-af1e2c5a0132",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-21T05:37:35.882Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "579dd0b7-5158-4167-81e6-97503c319944",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-21T05:50:03.570Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "d74d2e7f-3e3a-4eb4-9eaa-658a7959281c",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-21T06:29:10.377Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "584f9e9a-9c8e-4f05-91d4-7aced1c957a5",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-21T06:44:10.869Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "e34c0d7c-a668-40ac-9b79-c658c6e96a60",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-21T06:46:17.462Z",
+    "module": "extended-follow-up",
+    "round": 1,
+    "isFirstSession": true,
+    "riskScore": 0.7,
+    "emotionalState": "Stable",
+    "responses": [
+      {
+        "questionId": "ptsd_1",
+        "questionText": "Question ptsd_1",
+        "answer": 1,
+        "timestamp": "2026-04-21T06:46:17.476Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_2",
+        "questionText": "Question ptsd_2",
+        "answer": 1,
+        "timestamp": "2026-04-21T06:46:17.476Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_3",
+        "questionText": "Question ptsd_3",
+        "answer": 3,
+        "timestamp": "2026-04-21T06:46:17.476Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_4",
+        "questionText": "Question ptsd_4",
+        "answer": 3,
+        "timestamp": "2026-04-21T06:46:17.476Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_5",
+        "questionText": "Question ptsd_5",
+        "answer": 3,
+        "timestamp": "2026-04-21T06:46:17.476Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_6",
+        "questionText": "Question ptsd_6",
+        "answer": 3,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "ptsd_7",
+        "questionText": "Question ptsd_7",
+        "answer": 3,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "anxiety_1",
+        "questionText": "Question anxiety_1",
+        "answer": 3,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "anxiety_2",
+        "questionText": "Question anxiety_2",
+        "answer": 4,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "anxiety_3",
+        "questionText": "Question anxiety_3",
+        "answer": 4,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "anxiety_4",
+        "questionText": "Question anxiety_4",
+        "answer": 4,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "anxiety_5",
+        "questionText": "Question anxiety_5",
+        "answer": 4,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "depression_1",
+        "questionText": "Question depression_1",
+        "answer": 3,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "depression_2",
+        "questionText": "Question depression_2",
+        "answer": 2,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "depression_3",
+        "questionText": "Question depression_3",
+        "answer": 2,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "depression_4",
+        "questionText": "Question depression_4",
+        "answer": 2,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "depression_5",
+        "questionText": "Question depression_5",
+        "answer": 2,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "functioning_1",
+        "questionText": "Question functioning_1",
+        "answer": 2,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "functioning_2",
+        "questionText": "Question functioning_2",
+        "answer": 2,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "functioning_3",
+        "questionText": "Question functioning_3",
+        "answer": 2,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "wellness_1",
+        "questionText": "Question wellness_1",
+        "answer": 2,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "wellness_2",
+        "questionText": "Question wellness_2",
+        "answer": 2,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      },
+      {
+        "questionId": "wellness_3",
+        "questionText": "Question wellness_3",
+        "answer": 0,
+        "timestamp": "2026-04-21T06:46:17.477Z",
+        "category": "follow-up"
+      }
+    ],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "durationMinutes": 14,
+    "completedAt": "2026-04-21T06:46:17.479Z",
+    "followUpResult": {
+      "ptsdScore": 61,
+      "anxietyScore": 95,
+      "depressionScore": 55,
+      "functioningScore": 40,
+      "wellnessScore": 27,
+      "overallTrend": "stable",
+      "severity": "moderate",
+      "recommendations": [
+        "Consider trauma-focused therapy (CPT, EMDR, or PE)",
+        "Practice grounding techniques daily",
+        "Learn and practice breathing exercises",
+        "Consider anxiety management techniques",
+        "Increase pleasant activities schedule",
+        "Consider behavioral activation therapy",
+        "Focus on daily routine and structure",
+        "Break tasks into smaller, manageable steps",
+        "Engage in regular self-care activities",
+        "Connect with supportive people regularly"
+      ]
+    }
+  },
+  {
+    "sessionId": "be7d9de1-237c-4e2f-a53b-1401697b6c6a",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-21T14:08:56.188Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "sessionId": "fdafc33b-6a20-4993-afa0-757963a5b9bb",
+    "accountId": "6a7193f8-a052-44df-94f3-c6f2f7ae43d2",
+    "date": "2026-04-21T14:09:52.112Z",
+    "module": "survivor",
+    "round": 1,
+    "isFirstSession": false,
+    "riskScore": 0,
+    "emotionalState": "calm",
+    "responses": [],
+    "ipAddress": "unknown",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  }
+]

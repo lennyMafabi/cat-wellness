@@ -1,0 +1,66 @@
+{
+  "sessions": [
+    {
+      "id": "902f6e9b-b6c0-4ba0-a3b1-6ff66f4b017d",
+      "userName": "lenny mafabi",
+      "userPhone": "0706137323",
+      "assessmentId": "completed",
+      "status": "active",
+      "createdAt": "2026-04-09T14:35:59.185Z",
+      "updatedAt": "2026-04-09T14:39:12.147Z"
+    },
+    {
+      "id": "902af601-1bc9-483f-a3d7-e156cd579a37",
+      "userName": "Mercy",
+      "userPhone": "072345687",
+      "status": "active",
+      "createdAt": "2026-04-10T09:43:58.920Z",
+      "updatedAt": "2026-04-10T09:45:03.001Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "f663693f-11b9-43f0-9443-51f08127bf8a",
+      "sessionId": "902f6e9b-b6c0-4ba0-a3b1-6ff66f4b017d",
+      "message": "hii",
+      "sender": "user",
+      "timestamp": "2026-04-09T14:36:08.129Z",
+      "read": true
+    },
+    {
+      "id": "4ee7a4f7-9ba6-4795-afc1-44a2b0926b65",
+      "sessionId": "902f6e9b-b6c0-4ba0-a3b1-6ff66f4b017d",
+      "message": "yes please",
+      "sender": "staff",
+      "staffName": "admin",
+      "timestamp": "2026-04-09T14:39:12.147Z",
+      "read": true
+    },
+    {
+      "id": "5a5cc123-e90f-45bb-9b20-883c007951f4",
+      "sessionId": "902af601-1bc9-483f-a3d7-e156cd579a37",
+      "message": "resouces that can be of use to me",
+      "sender": "user",
+      "timestamp": "2026-04-10T09:44:21.421Z",
+      "read": true
+    },
+    {
+      "id": "eccd15fd-a107-4951-bbc4-f1a6a568a8cd",
+      "sessionId": "902af601-1bc9-483f-a3d7-e156cd579a37",
+      "message": "imlu cvt",
+      "sender": "staff",
+      "staffName": "admin",
+      "timestamp": "2026-04-10T09:44:45.783Z",
+      "read": true
+    },
+    {
+      "id": "278279ec-e5e1-4e9e-a293-5bbcee1c1791",
+      "sessionId": "902af601-1bc9-483f-a3d7-e156cd579a37",
+      "message": "www.catkenya.co.ke",
+      "sender": "staff",
+      "staffName": "admin",
+      "timestamp": "2026-04-10T09:45:03.001Z",
+      "read": true
+    }
+  ]
+}

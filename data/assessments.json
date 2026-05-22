@@ -1,0 +1,382 @@
+[
+  {
+    "userInfo": {
+      "name": "jhfh",
+      "phone": "68987987",
+      "altContact": "",
+      "relationship": ""
+    },
+    "answers": {
+      "q1": 2,
+      "q2": 1,
+      "q3": 0,
+      "q4": 4,
+      "q5": 3,
+      "q6": 3,
+      "q7": 3,
+      "q8": 3,
+      "q9": 4,
+      "q10": 3,
+      "q11": 2,
+      "q12": 3,
+      "q13": 3,
+      "q14": 4,
+      "q15": 3,
+      "q16": 2,
+      "q17": 3,
+      "q18": 3,
+      "q19": 2,
+      "q20": 4
+    },
+    "result": {
+      "riskLevel": "high",
+      "topCluster": "hyperarousal",
+      "clusterLevels": {
+        "reexperiencing": "moderate",
+        "avoidance": "high",
+        "hyperarousal": "high",
+        "affect dysregulation": "high",
+        "negative self concept": "high",
+        "disturbed relationships": "high"
+      },
+      "rawScores": {
+        "reexperiencing": 7,
+        "avoidance": 6,
+        "hyperarousal": 13,
+        "affect dysregulation": 5,
+        "negative self concept": 12,
+        "disturbed relationships": 12
+      },
+      "summary": "Your responses suggest significant post-traumatic stress symptoms. Multiple areas of your life appear to be affected by your experiences. You indicated challenges related to intrusive memories or flashbacks, avoidance of trauma reminders, heightened alertness or reactivity, difficulty managing intense emotions, negative beliefs about yourself, challenges in close relationships. Consider speaking with a mental health professional who can provide personalized support.",
+      "recommendations": [
+        "When distressing memories arise, focus on your breath and current surroundings",
+        "Gradual exposure to avoided situations with support from a therapist",
+        "Practice sitting with uncomfortable feelings for short periods to build tolerance",
+        "Establish a calming bedtime routine and limit caffeine",
+        "Try progressive muscle relaxation or yoga for nervous system regulation",
+        "Learn emotion regulation skills through Dialectical Behavior Therapy (DBT)",
+        "Create a self-soothing kit with sensory comfort items",
+        "Work with a therapist on cognitive restructuring and self-compassion",
+        "Practice daily self-affirmations and challenge negative self-talk",
+        "Consider relationship counseling or group therapy to rebuild connection skills",
+        "Start with small steps: brief conversations with trusted people"
+      ]
+    },
+    "track": "adult",
+    "id": "f9d74d46-b71f-45d8-ae44-f62feb5591bc",
+    "createdAt": "2026-04-09T13:05:22.929Z"
+  },
+  {
+    "userInfo": {
+      "name": "mmmm",
+      "phone": "869098",
+      "altContact": "",
+      "relationship": ""
+    },
+    "answers": {
+      "q1": 2,
+      "q2": 3,
+      "q3": 2,
+      "q4": 4,
+      "q5": 3,
+      "q6": 4,
+      "q7": 3,
+      "q8": 4,
+      "q9": 3,
+      "q10": 4,
+      "q11": 3,
+      "q12": 4,
+      "q13": 3,
+      "q14": 4,
+      "q15": 4,
+      "q16": 3,
+      "q17": 4,
+      "q18": 3,
+      "q19": 3,
+      "q20": 3
+    },
+    "result": {
+      "riskLevel": "high",
+      "topCluster": "hyperarousal",
+      "clusterLevels": {
+        "reexperiencing": "high",
+        "avoidance": "high",
+        "hyperarousal": "high",
+        "affect dysregulation": "high",
+        "negative self concept": "high",
+        "disturbed relationships": "high"
+      },
+      "rawScores": {
+        "reexperiencing": 11,
+        "avoidance": 7,
+        "hyperarousal": 14,
+        "affect dysregulation": 7,
+        "negative self concept": 14,
+        "disturbed relationships": 13
+      },
+      "summary": "Your responses suggest significant post-traumatic stress symptoms. Multiple areas of your life appear to be affected by your experiences. You indicated challenges related to intrusive memories or flashbacks, avoidance of trauma reminders, heightened alertness or reactivity, difficulty managing intense emotions, negative beliefs about yourself, challenges in close relationships. Consider speaking with a mental health professional who can provide personalized support.",
+      "recommendations": [
+        "Practice grounding techniques (5-4-3-2-1 senses exercise) when memories intrude",
+        "Consider trauma-focused therapy such as EMDR or Trauma-Focused CBT",
+        "Gradual exposure to avoided situations with support from a therapist",
+        "Practice sitting with uncomfortable feelings for short periods to build tolerance",
+        "Establish a calming bedtime routine and limit caffeine",
+        "Try progressive muscle relaxation or yoga for nervous system regulation",
+        "Learn emotion regulation skills through Dialectical Behavior Therapy (DBT)",
+        "Create a self-soothing kit with sensory comfort items",
+        "Work with a therapist on cognitive restructuring and self-compassion",
+        "Practice daily self-affirmations and challenge negative self-talk",
+        "Consider relationship counseling or group therapy to rebuild connection skills",
+        "Start with small steps: brief conversations with trusted people"
+      ]
+    },
+    "track": "adult",
+    "id": "d4177e59-823d-4ecc-8714-eafc553b8496",
+    "createdAt": "2026-04-09T13:14:09.656Z"
+  },
+  {
+    "userInfo": {
+      "name": "4444",
+      "phone": "ER2RWE",
+      "altContact": "",
+      "relationship": ""
+    },
+    "answers": {
+      "q1": 1,
+      "q2": 2,
+      "q3": 2,
+      "q4": 2,
+      "q5": 3,
+      "q6": 2,
+      "q7": 3,
+      "q8": 4,
+      "q9": 4,
+      "q10": 4,
+      "q11": 4,
+      "q12": 3,
+      "q13": 3,
+      "q14": 4,
+      "q15": 4,
+      "q16": 3,
+      "q17": 4,
+      "q18": 3,
+      "q19": 3,
+      "q20": 4
+    },
+    "result": {
+      "riskLevel": "high",
+      "topCluster": "hyperarousal",
+      "clusterLevels": {
+        "reexperiencing": "moderate",
+        "avoidance": "high",
+        "hyperarousal": "high",
+        "affect dysregulation": "high",
+        "negative self concept": "high",
+        "disturbed relationships": "high"
+      },
+      "rawScores": {
+        "reexperiencing": 7,
+        "avoidance": 5,
+        "hyperarousal": 15,
+        "affect dysregulation": 7,
+        "negative self concept": 14,
+        "disturbed relationships": 14
+      },
+      "summary": "Your responses suggest significant post-traumatic stress symptoms. Multiple areas of your life appear to be affected by your experiences. You indicated challenges related to intrusive memories or flashbacks, avoidance of trauma reminders, heightened alertness or reactivity, difficulty managing intense emotions, negative beliefs about yourself, challenges in close relationships. Consider speaking with a mental health professional who can provide personalized support.",
+      "recommendations": [
+        "When distressing memories arise, focus on your breath and current surroundings",
+        "Gradual exposure to avoided situations with support from a therapist",
+        "Practice sitting with uncomfortable feelings for short periods to build tolerance",
+        "Establish a calming bedtime routine and limit caffeine",
+        "Try progressive muscle relaxation or yoga for nervous system regulation",
+        "Learn emotion regulation skills through Dialectical Behavior Therapy (DBT)",
+        "Create a self-soothing kit with sensory comfort items",
+        "Work with a therapist on cognitive restructuring and self-compassion",
+        "Practice daily self-affirmations and challenge negative self-talk",
+        "Consider relationship counseling or group therapy to rebuild connection skills",
+        "Start with small steps: brief conversations with trusted people"
+      ]
+    },
+    "track": "adult",
+    "id": "822777bd-76e1-45e9-b092-72e961b7ff64",
+    "createdAt": "2026-04-09T14:24:39.182Z"
+  },
+  {
+    "userInfo": {
+      "name": "lenny mafabi",
+      "phone": "0706137323",
+      "altContact": "rebecca",
+      "relationship": "sister"
+    },
+    "answers": {
+      "q1": 3,
+      "q2": 1,
+      "q3": 4,
+      "q4": 4,
+      "q5": 2,
+      "q6": 3,
+      "q7": 0,
+      "q8": 1,
+      "q9": 4,
+      "q10": 3,
+      "q11": 4,
+      "q12": 3,
+      "q13": 2,
+      "q14": 4,
+      "q15": 4,
+      "q16": 4,
+      "q17": 4,
+      "q18": 4,
+      "q19": 2,
+      "q20": 4
+    },
+    "result": {
+      "riskLevel": "high",
+      "topCluster": "negative self concept",
+      "clusterLevels": {
+        "reexperiencing": "high",
+        "avoidance": "high",
+        "hyperarousal": "high",
+        "affect dysregulation": "high",
+        "negative self concept": "high",
+        "disturbed relationships": "high"
+      },
+      "rawScores": {
+        "reexperiencing": 12,
+        "avoidance": 5,
+        "hyperarousal": 8,
+        "affect dysregulation": 7,
+        "negative self concept": 14,
+        "disturbed relationships": 14
+      },
+      "summary": "Your responses suggest significant post-traumatic stress symptoms. Multiple areas of your life appear to be affected by your experiences. You indicated challenges related to intrusive memories or flashbacks, avoidance of trauma reminders, heightened alertness or reactivity, difficulty managing intense emotions, negative beliefs about yourself, challenges in close relationships. Consider speaking with a mental health professional who can provide personalized support.",
+      "recommendations": [
+        "Practice grounding techniques (5-4-3-2-1 senses exercise) when memories intrude",
+        "Consider trauma-focused therapy such as EMDR or Trauma-Focused CBT",
+        "Gradual exposure to avoided situations with support from a therapist",
+        "Practice sitting with uncomfortable feelings for short periods to build tolerance",
+        "Establish a calming bedtime routine and limit caffeine",
+        "Try progressive muscle relaxation or yoga for nervous system regulation",
+        "Learn emotion regulation skills through Dialectical Behavior Therapy (DBT)",
+        "Create a self-soothing kit with sensory comfort items",
+        "Work with a therapist on cognitive restructuring and self-compassion",
+        "Practice daily self-affirmations and challenge negative self-talk",
+        "Consider relationship counseling or group therapy to rebuild connection skills",
+        "Start with small steps: brief conversations with trusted people"
+      ]
+    },
+    "track": "adult",
+    "id": "5cb398b7-3282-4050-96b6-53ef6b95d4b6",
+    "createdAt": "2026-04-09T14:33:02.323Z"
+  },
+  {
+    "userInfo": {
+      "name": "Ronald Mafabi",
+      "phone": "0706137323",
+      "altContact": "",
+      "relationship": ""
+    },
+    "answers": {
+      "p1": 2,
+      "p2": 1,
+      "p3": 4,
+      "p4": 3,
+      "p5": 0,
+      "p6": 2,
+      "p9": 2,
+      "p10": 1,
+      "p11": 0,
+      "p12": 2,
+      "p13": 0,
+      "p14": 2,
+      "p15": 1,
+      "p16": 3,
+      "p17": 0,
+      "p18": 1,
+      "p19": 1,
+      "p20": 2
+    },
+    "result": {
+      "riskLevel": "low",
+      "topCluster": "reexperiencing",
+      "clusterLevels": {
+        "reexperiencing": "low",
+        "avoidance": "low",
+        "hyperarousal": "low",
+        "affect dysregulation": "low",
+        "negative self concept": "low",
+        "disturbed relationships": "low"
+      },
+      "rawScores": {
+        "reexperiencing": 0,
+        "avoidance": 0,
+        "hyperarousal": 0,
+        "affect dysregulation": 0,
+        "negative self concept": 0,
+        "disturbed relationships": 0
+      },
+      "summary": "Your responses suggest minimal post-traumatic stress symptoms. You appear to be coping well with your experiences. Consider speaking with a mental health professional who can provide personalized support.",
+      "recommendations": []
+    },
+    "track": "adult",
+    "userType": "practitioner",
+    "id": "4784899b-e598-48df-88bd-340668ff39f1",
+    "createdAt": "2026-04-10T05:27:24.218Z"
+  },
+  {
+    "userInfo": {
+      "name": "d",
+      "phone": "7",
+      "altContact": "",
+      "relationship": ""
+    },
+    "answers": {
+      "p1": 1,
+      "p2": 0,
+      "p3": 2,
+      "p4": 1,
+      "p5": 2,
+      "p6": 3,
+      "p7": 3,
+      "p8": 4,
+      "p9": 3,
+      "p10": 3,
+      "p11": 2,
+      "p12": 4,
+      "p13": 3,
+      "p14": 4,
+      "p15": 3,
+      "p16": 2,
+      "p17": 3,
+      "p18": 4,
+      "p19": 3,
+      "p20": 4
+    },
+    "result": {
+      "riskLevel": "low",
+      "summary": "Your responses suggest minimal post-traumatic stress symptoms. You appear to be coping well with your experiences. Consider speaking with a mental health professional who can provide personalized support.",
+      "clusterLevels": {
+        "reexperiencing": "low",
+        "avoidance": "low",
+        "hyperarousal": "low",
+        "affect dysregulation": "low",
+        "negative self concept": "low",
+        "disturbed relationships": "low"
+      },
+      "rawScores": {
+        "reexperiencing": 0,
+        "avoidance": 0,
+        "hyperarousal": 0,
+        "affect dysregulation": 0,
+        "negative self concept": 0,
+        "disturbed relationships": 0
+      },
+      "topCluster": "reexperiencing",
+      "recommendations": []
+    },
+    "track": "adult",
+    "userType": "practitioner",
+    "id": "3a266172-5b05-449b-9b31-ff27bac40693",
+    "createdAt": "2026-04-10T09:37:33.112Z"
+  }
+]
