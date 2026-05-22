@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: 'dist',
   poweredByHeader: false, // Remove X-Powered-By header
   
   // Security headers (also handled in middleware.ts)
