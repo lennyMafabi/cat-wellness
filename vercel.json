@@ -1,0 +1,6 @@
+{
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "envPrefix": "NEXT_PUBLIC_",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . || true"
+}
