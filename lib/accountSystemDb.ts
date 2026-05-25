@@ -1,6 +1,6 @@
+import { v4 as uuidv4 } from 'uuid';
 import fs from 'fs';
 import path from 'path';
-import { v4 as uuidv4 } from 'uuid';
 import type { 
   Account, 
   AdminMirrorRecord, 
@@ -23,8 +23,21 @@ const ADMIN_MIRROR_PATH = path.join(DATA_DIR, 'adminMirrorRecords.json');
 const SESSIONS_PATH = path.join(DATA_DIR, 'sessions.json');
 const RETAINED_CHATS_PATH = path.join(DATA_DIR, 'retainedChats.json');
 
+// In-memory cache for production (Vercel serverless)
+const memoryCache: Record<string, any> = {
+  [ACCOUNTS_PATH]: [],
+  [ACCOUNT_CREDS_PATH]: [],
+  [ADMIN_MIRROR_PATH]: [],
+  [SESSIONS_PATH]: [],
+  [RETAINED_CHATS_PATH]: []
+};
+
+const isProduction = process.env.NODE_ENV === 'production';
+
 // Initialize database files
 function initAccountDb() {
+  if (isProduction) return; // Skip file init in production
+  
   if (!fs.existsSync(DATA_DIR)) {
     fs.mkdirSync(DATA_DIR, { recursive: true });
   }
@@ -44,14 +57,37 @@ function initAccountDb() {
   });
 }
 
-// Generic read/write helpers
+// Generic read/write helpers with fallback to memory
 function readJson<T>(filePath: string): T[] {
+  // In production, use memory cache
+  if (isProduction) {
+    return memoryCache[filePath] || [];
+  }
+  
+  // In development, use file system
   initAccountDb();
-  return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch {
+    return [];
+  }
 }
 
 function writeJson<T>(filePath: string, data: T[]): void {
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+  // Always update memory cache
+  memoryCache[filePath] = data;
+  
+  // In production, skip file write (read-only filesystem)
+  if (isProduction) {
+    return;
+  }
+  
+  // In development, write to file
+  try {
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+  } catch (error) {
+    console.error('Failed to write JSON:', error);
+  }
 }
 
 // Simple hash function (for demo purposes - use bcrypt in production)
