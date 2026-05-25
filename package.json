@@ -6,9 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "data:view": "cat data/accounts.json | jq '.' 2>/dev/null || type data\\accounts.json",
+    "data:backup": "powershell -Command \"Copy-Item -Path data -Destination \"data-backup-$(Get-Date -Format 'yyyy-MM-dd-HHmmss')\" -Recurse\"",
+    "data:clear": "powershell -Command \"Remove-Item -Path data/*.json -Exclude backup* -Force -ErrorAction SilentlyContinue; Write-Host 'Data cleared'\"",
+    "deploy": "git add -A && git commit -m 'Deploy updates' && git push && npx vercel deploy --prod"
   },
   "dependencies": {
+    "@planetscale/database": "^1.20.1",
     "@supabase/supabase-js": "^2.106.1",
     "bcryptjs": "^3.0.3",
     "framer-motion": "^11.0.0",
@@ -17,6 +22,7 @@
     "jspdf": "^4.2.1",
     "lucide-react": "^0.400.0",
     "next": "^14.1.0",
+    "postgres": "^3.4.9",
     "rate-limiter-flexible": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

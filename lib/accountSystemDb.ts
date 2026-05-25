@@ -34,6 +34,21 @@ const memoryCache: Record<string, any> = {
 
 const isProduction = process.env.NODE_ENV === 'production';
 
+// Auto-backup mechanism: save to data/backup-{timestamp}.json
+function createBackup(data: any) {
+  if (isProduction) return; // Don't create backups on Vercel
+  try {
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const backupPath = path.join(DATA_DIR, `backup-${timestamp}.json`);
+    if (!fs.existsSync(DATA_DIR)) {
+      fs.mkdirSync(DATA_DIR, { recursive: true });
+    }
+    fs.writeFileSync(backupPath, JSON.stringify(data, null, 2));
+  } catch (err) {
+    // Silently fail - backups are optional
+  }
+}
+
 // Initialize database files
 function initAccountDb() {
   if (isProduction) return; // Skip file init in production
