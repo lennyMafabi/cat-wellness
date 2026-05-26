@@ -37,7 +37,8 @@
       "consentGiven": true,
       "consentTimestamp": "2026-04-17T06:18:12.009Z"
     },
-    "lastSessionId": "b307785e-d4a4-43b6-8ad3-d85d658dd1a0"
+    "lastSessionId": "b307785e-d4a4-43b6-8ad3-d85d658dd1a0",
+    "passwordHash": "4c637e05"
   },
   {
     "accountId": "4b5cd16b-5b4d-4491-8d32-15970f3031bb",
@@ -94,5 +95,41 @@
       "consentTimestamp": "2026-04-20T10:05:39.193Z"
     },
     "lastSessionId": "fdafc33b-6a20-4993-afa0-757963a5b9bb"
+  },
+  {
+    "accountId": "admin-practitioner-001",
+    "username": "admin",
+    "alias": "Dr. Admin",
+    "email": "admin@catkenya.org",
+    "role": "practitioner",
+    "status": "active",
+    "createdAt": "2026-05-26T10:00:00.000Z",
+    "lastLoginAt": "2026-05-26T10:00:00.000Z",
+    "totalSessions": 0,
+    "metadata": {
+      "firstIntakeComplete": false,
+      "preferredLanguage": "en",
+      "consentGiven": true,
+      "consentTimestamp": "2026-05-26T10:00:00.000Z"
+    },
+    "passwordHash": "586034f"
+  },
+  {
+    "accountId": "admin-practitioner-002",
+    "username": "practitioner",
+    "alias": "Dr. Counselor",
+    "email": "practitioner@catkenya.org",
+    "role": "practitioner",
+    "status": "active",
+    "createdAt": "2026-05-26T10:00:00.000Z",
+    "lastLoginAt": "2026-05-26T10:00:00.000Z",
+    "totalSessions": 0,
+    "metadata": {
+      "firstIntakeComplete": false,
+      "preferredLanguage": "en",
+      "consentGiven": true,
+      "consentTimestamp": "2026-05-26T10:00:00.000Z"
+    },
+    "passwordHash": "223f4b1a"
   }
 ]
