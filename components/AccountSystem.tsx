@@ -26,7 +26,7 @@ interface AccountSystemProps {
   onCancel: () => void;
 }
 
-type ViewState = 'welcome' | 'login' | 'create-account' | 'quick-checkin' | 'follow-up' | 'dashboard' | 'extended-follow-up';
+type ViewState = 'welcome' | 'login' | 'create-account' | 'quick-checkin' | 'follow-up' | 'dashboard' | 'extended-follow-up' | 'admin-login';
 
 interface FormData {
   username: string;
@@ -83,6 +83,11 @@ export default function AccountSystem({ onAuthenticated, onCancel }: AccountSyst
   // Password visibility state
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+
+  // Admin login state
+  const [adminUsername, setAdminUsername] = useState('');
+  const [adminPassword, setAdminPassword] = useState('');
+  const [showAdminPassword, setShowAdminPassword] = useState(false);
 
   // ==================== HELPERS ====================
   
@@ -193,6 +198,50 @@ export default function AccountSystem({ onAuthenticated, onCancel }: AccountSyst
         switchView('dashboard');
       } else {
         setError(data.message || 'Invalid credentials. Please check your username and password.');
+      }
+    } catch (err) {
+      setError('Network error. Please try again.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleAdminLogin = async () => {
+    if (!adminUsername || !adminPassword) {
+      setError('Username and password are required');
+      return;
+    }
+
+    setIsLoading(true);
+    setError('');
+
+    try {
+      const response = await fetch('/api/accounts', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          username: adminUsername,
+          password: adminPassword,
+          adminLogin: true
+        })
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        // Check if admin role
+        if (data.account?.role !== 'practitioner' && data.account?.role !== 'online_harms') {
+          setError('This account does not have admin access. Please use an admin account.');
+          setIsLoading(false);
+          return;
+        }
+
+        setCurrentAccount(data.account);
+        setCurrentSession(data.session);
+        onAuthenticated(data.account, data.session, true);
+        switchView('dashboard');
+      } else {
+        setError(data.message || 'Invalid admin credentials.');
       }
     } catch (err) {
       setError('Network error. Please try again.');
@@ -344,6 +393,20 @@ export default function AccountSystem({ onAuthenticated, onCancel }: AccountSyst
         </button>
       </div>
 
+      <div style={{ marginTop: '16px', paddingTop: '16px', borderTop: '1px solid #e5e7eb' }}>
+        <button 
+          onClick={() => switchView('admin-login')} 
+          style={{
+            ...styles.cancelButton,
+            fontSize: '13px',
+            color: '#6366f1',
+            textDecoration: 'underline'
+          }}
+        >
+          Admin/Practitioner Login
+        </button>
+      </div>
+
       <button onClick={onCancel} style={styles.cancelButton}>
         Continue Without Account
       </button>
@@ -423,6 +486,74 @@ export default function AccountSystem({ onAuthenticated, onCancel }: AccountSyst
             Click here to request a reset
           </span>
         </p>
+      </div>
+    </div>
+  );
+
+  const renderAdminLogin = () => (
+    <div style={styles.formContainer}>
+      <h2 style={styles.formTitle}>Admin & Practitioner Login</h2>
+      <p style={{ ...styles.label, marginBottom: '16px', color: '#6b7280' }}>
+        Sign in with your admin or practitioner account
+      </p>
+      
+      {error && <div style={styles.error}>{error}</div>}
+      
+      <div style={styles.formGroup}>
+        <label style={styles.label}>Username</label>
+        <input
+          type="text"
+          value={adminUsername}
+          onChange={(e) => setAdminUsername(e.target.value)}
+          style={styles.input}
+          placeholder="Enter your admin username"
+        />
+      </div>
+
+      <div style={styles.formGroup}>
+        <label style={styles.label}>Password</label>
+        <div style={{ position: 'relative' }}>
+          <input
+            type={showAdminPassword ? 'text' : 'password'}
+            value={adminPassword}
+            onChange={(e) => setAdminPassword(e.target.value)}
+            style={{...styles.input, paddingRight: '40px'}}
+            placeholder="Enter your password"
+          />
+          <button
+            type="button"
+            onClick={() => setShowAdminPassword(!showAdminPassword)}
+            style={{
+              position: 'absolute',
+              right: '10px',
+              top: '50%',
+              transform: 'translateY(-50%)',
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              padding: '5px',
+              color: '#6b7280'
+            }}
+          >
+            {showAdminPassword ? '🙈' : '👁️'}
+          </button>
+        </div>
+      </div>
+
+      <div style={styles.buttonGroup}>
+        <button 
+          onClick={handleAdminLogin} 
+          style={styles.primaryButton}
+          disabled={isLoading}
+        >
+          {isLoading ? 'Signing in...' : 'Admin Login'}
+        </button>
+        <button 
+          onClick={() => switchView('welcome')} 
+          style={styles.backButton}
+        >
+          Back
+        </button>
       </div>
     </div>
   );
@@ -902,6 +1033,7 @@ export default function AccountSystem({ onAuthenticated, onCancel }: AccountSyst
     <div style={styles.container}>
       {currentView === 'welcome' && renderWelcome()}
       {currentView === 'login' && renderLogin()}
+      {currentView === 'admin-login' && renderAdminLogin()}
       {currentView === 'create-account' && renderCreateAccount()}
       {currentView === 'quick-checkin' && renderQuickCheckIn()}
       {currentView === 'follow-up' && renderFollowUp()}
