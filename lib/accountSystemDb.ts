@@ -74,8 +74,12 @@ function initAccountDb() {
 
 // Generic read/write helpers with fallback to memory
 function readJson<T>(filePath: string): T[] {
-  // In production, use memory cache
+  // In production, use memory cache with auto-seeding
   if (isProduction) {
+    // Seed admin accounts on first access to accounts or credentials
+    if (filePath === ACCOUNTS_PATH || filePath === ACCOUNT_CREDS_PATH) {
+      ensureAdminAccountsSeeded();
+    }
     return memoryCache[filePath] || [];
   }
   
@@ -118,6 +122,117 @@ export function hashPassword(password: string): string {
 
 function verifyPassword(password: string, hash: string): boolean {
   return hashPassword(password) === hash;
+}
+
+// Ensure admin accounts are seeded in memory
+function ensureAdminAccountsSeeded() {
+  const accounts = memoryCache[ACCOUNTS_PATH] || [];
+  
+  // Check if admin accounts exist
+  const hasAdminAccount = accounts.some((a: any) => a.username === 'admin');
+  const hasPractitionerAccount = accounts.some((a: any) => a.username === 'practitioner');
+  const hasLawrenceAccount = accounts.some((a: any) => a.username === 'Lawrence');
+  
+  // Seed admin accounts if they don't exist
+  if (!hasAdminAccount || !hasPractitionerAccount || !hasLawrenceAccount) {
+    const seedAccounts: Account[] = [
+      {
+        accountId: 'admin-practitioner-001',
+        username: 'admin',
+        alias: 'Dr. Admin',
+        email: 'admin@catkenya.org',
+        role: 'practitioner',
+        status: 'active',
+        createdAt: new Date().toISOString(),
+        lastLoginAt: new Date().toISOString(),
+        totalSessions: 0,
+        metadata: {
+          firstIntakeComplete: false,
+          preferredLanguage: 'en',
+          consentGiven: true,
+          consentTimestamp: new Date().toISOString()
+        }
+      },
+      {
+        accountId: 'admin-practitioner-002',
+        username: 'practitioner',
+        alias: 'Dr. Counselor',
+        email: 'practitioner@catkenya.org',
+        role: 'practitioner',
+        status: 'active',
+        createdAt: new Date().toISOString(),
+        lastLoginAt: new Date().toISOString(),
+        totalSessions: 0,
+        metadata: {
+          firstIntakeComplete: false,
+          preferredLanguage: 'en',
+          consentGiven: true,
+          consentTimestamp: new Date().toISOString()
+        }
+      },
+      {
+        accountId: 'online-harms-001',
+        username: 'Lawrence',
+        alias: 'Mafabi',
+        email: 'kingjesuschurch@gmail.com',
+        role: 'online_harms',
+        status: 'active',
+        createdAt: new Date().toISOString(),
+        lastLoginAt: new Date().toISOString(),
+        totalSessions: 0,
+        metadata: {
+          firstIntakeComplete: false,
+          preferredLanguage: 'en',
+          consentGiven: true,
+          consentTimestamp: new Date().toISOString()
+        }
+      }
+    ];
+    
+    // Add missing accounts
+    const newAccounts = [...(accounts as Account[])];
+    if (!hasAdminAccount) {
+      newAccounts.push(seedAccounts[0]);
+    }
+    if (!hasPractitionerAccount) {
+      newAccounts.push(seedAccounts[1]);
+    }
+    if (!hasLawrenceAccount) {
+      newAccounts.push(seedAccounts[2]);
+    }
+    
+    memoryCache[ACCOUNTS_PATH] = newAccounts;
+    
+    // Also seed credentials
+    const creds = memoryCache[ACCOUNT_CREDS_PATH] || [];
+    const newCreds = [...(creds as AccountCredentials[])];
+    
+    if (!hasAdminAccount) {
+      newCreds.push({
+        accountId: 'admin-practitioner-001',
+        passwordHash: hashPassword('admin'),
+        createdAt: new Date().toISOString()
+      });
+    }
+    
+    if (!hasPractitionerAccount) {
+      newCreds.push({
+        accountId: 'admin-practitioner-002',
+        passwordHash: hashPassword('practitioner'),
+        createdAt: new Date().toISOString()
+      });
+    }
+    
+    if (!hasLawrenceAccount) {
+      newCreds.push({
+        accountId: 'online-harms-001',
+        passwordHash: hashPassword('Lawrence'),
+        createdAt: new Date().toISOString()
+      });
+    }
+    
+    memoryCache[ACCOUNT_CREDS_PATH] = newCreds;
+  }
 }
 
 // ==================== ACCOUNT OPERATIONS ====================
